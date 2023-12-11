@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Femmes d'Afrique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Les femmes qui ont de l'influence qui ont oeuvrées pour l'évolution de leur pays et du continent">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/glide.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/css/glide.core.min.css
+" rel="stylesheet">
+
+<link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <h1><a href="/Design de l'info.docx">Les femmes influentes d'Afrique</a></h1>
+        </div>        
+            <nav class="nav">
+                <ul class="nav-items">
+                    <li class="nav-item"> <a href="../index.html">Acceuil</a></li>
+                    <li class="nav-item"> <a href="">Entrepreneuriat</a> </li>
+                    <li class="nav-item"> <a href="">Education</a> </li>
+                    <li class="nav-item"> <a href="">Mode</a> </li>
+                    <li class="nav-item"> <a href="">Politique</a></li>
+                    <li class="nav-item"> <a href="">Economique</a> </li>
+                    <li class="nav-item"> <a href="">Patrimoine</a></li>
+                    <li class="nav-item"> <a href="">A la une</a> </li>    
+                </ul>
+
+                <div class="nav-search">
+                    <div class="nav-search__el">
+                      <i class="las la-search"></i>
+                      <input type="text" placeholder="Recheche" class="search-input"/>
+                      </div>
+                  </div> 
+            </nav>
+                   
+    </header>
+    <section class="slider-container">
+  <main>
+    <h2 class="main-title"> Voici des biographies élaborées de 10 femmes influentes en Afrique, ainsi que quelques informations sur leurs actualités</h2>
+    <section>
+        <article class="article">
+                <div class="article-text">
+              <h4>9. Fatou Bensouda (Gambie) </h4>
+                <p>
+                  Fatou Bensouda est née le 31 janvier 1961 en Gambie. Elle est une avocate internationale qui a été procureure en chef de la Cour pénale internationale (CPI) de 2012 à 2021.
+                  Elle a poursuivi des affaires de crimes de guerre et de crimes contre l'humanité. 
+                  Elle a contribué à l'application du droit international humanitaire.
+              </p>
+              <button class="article-btn"><a href="https://fr.wikipedia.org/wiki/Fatou_Bensouda"> Plus de détail...</a></button>
+              </div>
+              <div class="article-img">
+                  <img src="https://www.radiondekeluka.org/wp-content/uploads/from-joomla/c16fc14f70b791837724ecd86e336eee.jpg" alt="">
+              </div>
+          </article>
+            
+      <div class="sideBar">
+        <div class="sideBar-newletter">
+          <h4>New letter</h4>
+          <div class="newletter-action">
+            <input
+              type="text"
+              placeholder="Entrer votre email"
+              class="newletter-Input"
+            />
+            <button class="new-Btn">S'abonner</button>
+          </div>
+        </div>
+        <div class="sidebar-social-media">
+            <div class="sidebar-social-media__content">
+              <h4>Suivez nous</h4>
+              <div class="sidebar-social-media__content_icon">
+                <span><i class="lab la-twitter"></i></span>
+                <span><i class="lab la-instagram"></i></span>
+                <span><i class="lab la-facebook-f"></i></span>
+                <span><i class="lab la-linkedin-in"></i></span>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+    </section>
+  </main>
+
+    <script>
+        new Glide('.glide',{
+            type:"carousel",
+            perView: 5,
+            focusAt:"center",
+            autoplay: 3000,
+            arrows:{
+                 perView:'.glide__arrow--left',
+                 next:'.glide__arrow--right',
+            },
+        }) .mount();
+      </script>
+</body>
+</html>
